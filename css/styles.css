@@ -1,14 +1,14 @@
+
 .page {
     width: 1020px;
     height: 700px;
-    margin: auto;
+    margin: 0 auto;
     background-color: #ccc;
 }
 .header, .article1, .article2 {
     background-color: #88d8fd;
 }
 .header {
-	float: auto;
 	width: 940px;
     margin: 0px 40px;
 }
@@ -22,9 +22,6 @@
 .nav:last-child {
     float: right;
     margin: 0px 0px 10px;s
-}
-.header, .clearfix {
-    overflow: auto;
 }
 .article1 {
 	width: 940px;
@@ -81,4 +78,9 @@
     width: 17px;
     height: 166px;
     background-color: #8f4ee0;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
